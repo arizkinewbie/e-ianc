@@ -14,6 +14,11 @@ class AuthenticationController extends Controller
         $this->middleware('guest')->except('logout');
     }
 
+    public function home()
+    {
+        return view('auth/home');
+    }
+
     public function login()
     {
         return view('auth/login');

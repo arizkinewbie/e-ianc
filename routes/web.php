@@ -14,7 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [AuthenticationController::class, 'login'])->name('login');
+Route::get('/', [AuthenticationController::class, 'home'])->name('home');
+Route::get('/login', [AuthenticationController::class, 'login'])->name('login');
 Route::post('postlogin', [AuthenticationController::class, 'postlogin'])->name('postlogin');
 Route::get('logout', [AuthenticationController::class, 'logout'])->name('logout');
 
@@ -305,7 +306,7 @@ Route::group(['middleware' => ['auth', 'check.logout']], function () {
     Route::get('/report/lb3', [App\Http\Controllers\Main\ReportController::class, 'lb3'])->name('report.lb3');
     Route::post('/report/ceklb3', [App\Http\Controllers\Main\ReportController::class, 'ceklb3'])->name('report.ceklb3');
     Route::get('/report/viewlb3/{month}/{year}', [App\Http\Controllers\Main\ReportController::class, 'viewlb3'])->name('report.viewlb3');
-    
+
     Route::post('/report/ceklb3rw', [App\Http\Controllers\Main\ReportController::class, 'ceklb3rw'])->name('report.ceklb3rw');
     Route::get('/report/viewlb3rw/{month}/{year}', [App\Http\Controllers\Main\ReportController::class, 'viewlb3rw'])->name('report.viewlb3rw');
 
