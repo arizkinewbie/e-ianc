@@ -13,21 +13,22 @@ $desc = "Perkenalkan, e-iANC. Aplikasi Pencatatan Data Pelayanan Antenatal Secar
     <title><?= $title ?></title>
     <meta name="title" content="<?= $title ?>" />
     <meta name="description" content="<?= $desc ?>" />
-    <meta name="image" content="./home/assets/favicon.png" />
+    <meta name="image" content="./home/assets/logo.jpg" />
     <meta name="keyword" content="e-ianc, pelayanan antenatal, ibu hamil, pencatatan data antenatal">
+    <meta name="favicon" content="./home/assets/logo.jpg" />
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://e-ianc.id/" />
     <meta property="og:title" content="<?= $title ?>" />
     <meta property="og:description" content="<?= $desc ?>" />
-    <meta property="og:image" content="./images/favicon.png" />
+    <meta property="og:image" content="./home/assets/logo.jpg" />
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://e-ianc.id/" />
     <meta property="twitter:title" content="<?= $title ?>" />
     <meta property="twitter:description" content="<?= $desc ?>" />
-    <meta property="twitter:image" content="./images/favicon.png" />
-    <link rel="shortcut icon" href="./images/favicon.png" />
+    <meta property="twitter:image" content="./home/assets/logo.jpg" />
+    <link rel="shortcut icon" href="./home/assets/logo.jpg" />
     <link rel="stylesheet" type="text/css" href="./vendor/fontawesome/css/all.css" />
     <link rel="stylesheet" type="text/css" href="./vendor/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="./vendor/bootstrap-icons/bootstrap-icons.css" />
