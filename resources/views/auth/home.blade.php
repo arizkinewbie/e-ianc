@@ -74,13 +74,14 @@ $desc = "Perkenalkan, e-iANC. Aplikasi Pencatatan Data Pelayanan Antenatal Secar
             <div class="hero__container overlay">
                 <div class="hero__copy">
                     <div class="hero__text">
-                        <h1>Selamat Datang<br>di extended e-iANC</h1>
+                        <h1>Selamat Datang</h1>
+                        <h1 style="color: #E98295;">di extended e-iANC</h1>
                         <p>Aplikasi pencatatan data pelayanan antenatal secara real-time</p>
                     </div>
                     <div class="card-body">
                         <div class="card-body dashboard">
-                            <a href="./dashboard" class="btn btn-primary btn-lg">Pandaftaran Akun e-iANC</a>
-                            <a href="./dashboard" class="btn btn-outline-secondary btn-lg">Panduan Pengguna <i>(User Guide)</i></a>
+                            <a href="./register" class="btn btn-primary btn-lg">Pandaftaran Akun e-iANC</a><br><br>
+                            <a href="/user-guide.pdf" class="btn btn-outline-secondary btn-lg" download>Panduan Pengguna <i>(User Guide)</i></a>
                         </div>
                     </div>
                 </div>
