@@ -13,22 +13,22 @@ $desc = "Perkenalkan, e-iANC. Aplikasi Pencatatan Data Pelayanan Antenatal Secar
     <title><?= $title ?></title>
     <meta name="title" content="<?= $title ?>" />
     <meta name="description" content="<?= $desc ?>" />
-    <meta name="image" content="./home/assets/logo.jpg" />
+    <meta name="image" content="./home/assets/logo.png" />
     <meta name="keyword" content="e-ianc, pelayanan antenatal, ibu hamil, pencatatan data antenatal">
-    <meta name="favicon" content="./home/assets/logo.jpg" />
+    <meta name="favicon" content="./home/assets/logo.png" />
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://e-ianc.id/" />
     <meta property="og:title" content="<?= $title ?>" />
     <meta property="og:description" content="<?= $desc ?>" />
-    <meta property="og:image" content="./home/assets/logo.jpg" />
+    <meta property="og:image" content="./home/assets/logo.png" />
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://e-ianc.id/" />
     <meta property="twitter:title" content="<?= $title ?>" />
     <meta property="twitter:description" content="<?= $desc ?>" />
-    <meta property="twitter:image" content="./home/assets/logo.jpg" />
-    <link rel="shortcut icon" href="./home/assets/logo.jpg" />
+    <meta property="twitter:image" content="./home/assets/logo.png" />
+    <link rel="shortcut icon" href="./home/assets/logo.png" />
     <link rel="stylesheet" type="text/css" href="./vendor/fontawesome/css/all.css" />
     <link rel="stylesheet" type="text/css" href="./vendor/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="./vendor/bootstrap-icons/bootstrap-icons.css" />
@@ -45,7 +45,7 @@ $desc = "Perkenalkan, e-iANC. Aplikasi Pencatatan Data Pelayanan Antenatal Secar
             <div class="header__container">
                 <!-- Logo -->
                 <a href="#">
-                    <img src="./home/assets/logo.jpg" alt="logo" class="header__logo" />
+                    <img src="./home/assets/logo.png" alt="logo" class="header__logo" />
                 </a>
 
                 <!-- Header links -->
@@ -217,7 +217,7 @@ $desc = "Perkenalkan, e-iANC. Aplikasi Pencatatan Data Pelayanan Antenatal Secar
     <footer class="footer">
         <div id="footer" class="container footer__container">
             <div class="footer__company">
-                <img src="./home/assets/logo.jpg" alt="logo" class="footer__logo" width="200" />
+                <img src="./home/assets/logo.png" alt="logo" class="footer__logo" width="200" />
                 <p class="footer__copyright"><?php
                                                 echo '© ', date('Y');
                                                 ?>
