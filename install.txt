@@ -1,4 +1,0 @@
-1. pastikan di folder root
-2. composer install
-3. npm install
-4. php artisan serve
