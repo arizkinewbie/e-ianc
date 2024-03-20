@@ -76,7 +76,7 @@ $desc = "Perkenalkan, Extended e-iANC. Aplikasi Pencatatan Data Pelayanan Antena
                 <div class="hero__copy">
                     <div class="hero__text">
                         <h1>Selamat Datang</h1>
-                        <h1 style="color: #E98295;">di extended e-iANC</h1>
+                        <h1 style="color: #E98295;">di Extended e-iANC</h1>
                         <p>Aplikasi pencatatan data pelayanan antenatal secara real-time</p>
                     </div>
                     <div class="card-body">
