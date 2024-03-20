@@ -158,11 +158,11 @@ h1 {
         line-height: var(--size-9xl);
     }
 }
-@media screen and (min-width: 1180px) {
+/* @media screen and (min-width: 1180px) {
     h1 {
         line-height: 1.2;
     }
-}
+} */
 
 h2 {
     font-weight: 700;
@@ -409,7 +409,7 @@ h5 {
     padding-bottom: 40px;
     display: grid;
     justify-items: start;
-    gap: 32px;
+    gap: 1px;
     max-width: 442px;
     z-index: 5;
     position: relative;

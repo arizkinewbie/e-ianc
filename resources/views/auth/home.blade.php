@@ -1,6 +1,6 @@
 <?php
-$title = "Extended Electronic Integrated Antenatal Care | E-IANC";
-$desc = "Perkenalkan, e-iANC. Aplikasi Pencatatan Data Pelayanan Antenatal Secara Real-Time Pertama Di Indonesia.";
+$title = "Extended Electronic Integrated Antenatal Care | Extended e-iANC";
+$desc = "Perkenalkan, Extended e-iANC. Aplikasi Pencatatan Data Pelayanan Antenatal Secara Real-Time Pertama Di Indonesia.";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -81,7 +81,7 @@ $desc = "Perkenalkan, e-iANC. Aplikasi Pencatatan Data Pelayanan Antenatal Secar
                     </div>
                     <div class="card-body">
                         <div class="card-body dashboard">
-                            <a href="./register" class="btn btn-primary btn-lg">Pandaftaran Akun e-iANC</a><br><br>
+                            <a href="./register" class="btn btn-primary btn-lg">Pandaftaran Akun Extended e-iANC</a><br><br>
                             <a href="/user-guide.pdf" class="btn btn-outline-secondary btn-lg" download>Panduan Pengguna <i>(User Guide)</i></a>
                         </div>
                     </div>
@@ -95,12 +95,12 @@ $desc = "Perkenalkan, e-iANC. Aplikasi Pencatatan Data Pelayanan Antenatal Secar
             <div id="about" class="container advantages__container">
                 <div class="advantages__copy">
                     <h2>
-                        Perkenalkan, e-iANC.
+                        Perkenalkan, Extended e-iANC.
                         <span>Aplikasi Pencatatan Data Pelayanan Antenatal </span>
                         <span>Secara Real-Time Pertama Di Indonesia.</span>
                     </h2>
                     <p>
-                        e-iANC adalah sebuah aplikasi yang dapat digunakan oleh bidan dalam melakukan pencatatan data pelayanan antenatal yang secara real time dapat menghasilkan visualisasi grafik pertumbuhan berat badan Ibu hamil, skrining risiko kehamilan dan kohortibu secara elektronik serta Surat Keterangan Kelahiran (SKK).
+                        Extended e-iANC adalah sebuah aplikasi yang dapat digunakan oleh bidan dalam melakukan pencatatan data pelayanan antenatal yang secara real time dapat menghasilkan visualisasi grafik pertumbuhan berat badan Ibu hamil, skrining risiko kehamilan dan kohort ibu secara elektronik serta Surat Keterangan Kelahiran (SKK).
                     </p>
                 </div>
                 <div class="advantages__items">
@@ -108,7 +108,7 @@ $desc = "Perkenalkan, e-iANC. Aplikasi Pencatatan Data Pelayanan Antenatal Secar
                         <img src="./home/assets/advantages-kecerdasan-buatan.svg" alt="" />
                         <div>
                             <h3>Inovasi pencatatan data pelayanan Antenatal</h3>
-                            <p>e-iANC dapat melakukan pencatatan data pelayanan Antenatal secara Real-TIme.</p>
+                            <p>Extended e-iANC dapat melakukan pencatatan data pelayanan Antenatal secara Real-TIme.</p>
                         </div>
                     </article>
                     <article class="advantages__item">
@@ -122,7 +122,7 @@ $desc = "Perkenalkan, e-iANC. Aplikasi Pencatatan Data Pelayanan Antenatal Secar
                         <img src="./home/assets/advantages-kualitas-pelayanan.svg" alt="" />
                         <div>
                             <h3>Mengubah pelayanan secara digitalisasi</h3>
-                            <p>e-iANC membantu meningkatkan kualitas pelayanan dalam pencatatan data pelayanan Antenatal.</p>
+                            <p>Extended e-iANC membantu meningkatkan kualitas pelayanan dalam pencatatan data pelayanan Antenatal.</p>
                         </div>
                     </article>
                 </div>
@@ -142,7 +142,7 @@ $desc = "Perkenalkan, e-iANC. Aplikasi Pencatatan Data Pelayanan Antenatal Secar
                         <div>
                             <img src="./home/assets/icon-quote-mark.svg" alt="" />
                             <p>
-                                Menjadi Sistem Rekam Jejak unggulan yang mendukung keberlanjutan dan peningkatan kualitas perguruan tinggi di wilayah III.
+                                Menghasilkan Informasi Kesehatan Ibu dan Anak Berkualitas Dalam Rangka Menurunkan Angka Kematian Ibu dan Bayi di Indonesia
                             </p>
                         </div>
                     </article>
@@ -152,7 +152,7 @@ $desc = "Perkenalkan, e-iANC. Aplikasi Pencatatan Data Pelayanan Antenatal Secar
                             <!-- Accordion 1 -->
                             <div class="accordion__item">
                                 <button type="button" class="accordion__button">
-                                    <h4 class="accordion__question">Apa Keuntungan Menggunakan e-iANC?</h4>
+                                    <h4 class="accordion__question">Apa Keuntungan Menggunakan Extended e-iANC?</h4>
                                     <div class="accordion__icon">
                                         <img src="./home/assets/icon-expand.svg" alt="Expand icon" />
                                     </div>
@@ -160,7 +160,7 @@ $desc = "Perkenalkan, e-iANC. Aplikasi Pencatatan Data Pelayanan Antenatal Secar
                                 <div class="accordion__collapse">
                                     <div class="accordion__body">
                                         <p class="accordion__answer">
-                                            e-iANC memberikan keuntungan efisiensi pencatatan data pelayanan antenatal, cek data secara real-time, dan visualisasi data yang mudah dibaca.
+                                            Extended e-iANC memberikan keuntungan efisiensi pencatatan data pelayanan antenatal, cek data secara real-time, dan visualisasi data yang mudah dibaca.
                                         </p>
                                     </div>
                                 </div>
@@ -169,7 +169,7 @@ $desc = "Perkenalkan, e-iANC. Aplikasi Pencatatan Data Pelayanan Antenatal Secar
                             <!-- Accordion 2 -->
                             <div class="accordion__item">
                                 <button type="button" class="accordion__button">
-                                    <h4 class="accordion__question">Bagaimana Cara Mengakses ke dalam e-iANC?</h4>
+                                    <h4 class="accordion__question">Bagaimana Cara Mengakses ke dalam Extended e-iANC?</h4>
                                     <div class="accordion__icon">
                                         <img src="./home/assets/icon-expand.svg" alt="Expand icon" />
                                     </div>
@@ -186,7 +186,7 @@ $desc = "Perkenalkan, e-iANC. Aplikasi Pencatatan Data Pelayanan Antenatal Secar
                             <!-- Accordion 3 -->
                             <div class="accordion__item">
                                 <button type="button" class="accordion__button">
-                                    <h4 class="accordion__question">Apakah e-iANC Dapat Diakases Melalui Berbagai Perangkat?</h4>
+                                    <h4 class="accordion__question">Apakah Extended e-iANC Dapat Diakases Melalui Berbagai Perangkat?</h4>
                                     <div class="accordion__icon">
                                         <img src="./home/assets/icon-expand.svg" alt="Expand icon" />
                                     </div>
@@ -194,7 +194,7 @@ $desc = "Perkenalkan, e-iANC. Aplikasi Pencatatan Data Pelayanan Antenatal Secar
                                 <div class="accordion__collapse">
                                     <div class="accordion__body">
                                         <p class="accordion__answer">
-                                            Ya, e-iANC dapat diakses melalui berbagai perangkat, seperti laptop, komputer, tablet, dan ponsel pintar.
+                                            Ya, Extended e-iANC dapat diakses melalui berbagai perangkat, seperti laptop, komputer, tablet, dan ponsel pintar.
                                         </p>
                                     </div>
                                 </div>
@@ -208,7 +208,7 @@ $desc = "Perkenalkan, e-iANC. Aplikasi Pencatatan Data Pelayanan Antenatal Secar
         <!-- SLOGAN -->
         <section class="slogan">
             <div class="container slogan__container">
-                <h3>Bersama <span>e-iANC</span>, Dari Kita Untuk Indonesia!</h3>
+                <h3>Extended <span>e-iANC</span>, Bidan capai Kualitas Informasi Kesehatan Ibu dan Anak</h3>
             </div>
         </section>
     </main>
@@ -221,7 +221,7 @@ $desc = "Perkenalkan, e-iANC. Aplikasi Pencatatan Data Pelayanan Antenatal Secar
                 <p class="footer__copyright"><?php
                                                 echo '© ', date('Y');
                                                 ?>
-                    <a href="" style="font-size: 16px">Extended Electronic Integrated Antenatal Care (e-iANC)</a>
+                    <a href="" style="font-size: 16px">Extended Electronic Integrated Antenatal Care (Extended e-iANC)</a>
                 </p>
                 <div class="footer__supporters">
                     <p style="font-size: 16px">Didukung oleh:</p>
