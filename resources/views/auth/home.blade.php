@@ -1,6 +1,6 @@
 <?php
 $title = "Extended Electronic Integrated Antenatal Care | Extended e-iANC";
-$desc = "Perkenalkan, Extended e-iANC. Aplikasi Pencatatan Data Pelayanan Antenatal Secara Real-Time Pertama Di Indonesia.";
+$desc = "Perkenalkan, Extended e-iANC. Aplikasi Pencatatan Data Pelayanan Kesehatan Ibu dan Anak Secara Real-Time Pertama Di Indonesia.";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -96,7 +96,7 @@ $desc = "Perkenalkan, Extended e-iANC. Aplikasi Pencatatan Data Pelayanan Antena
                 <div class="advantages__copy">
                     <h2>
                         Perkenalkan, Extended e-iANC.
-                        <span>Aplikasi Pencatatan Data Pelayanan Antenatal </span>
+                        <span>Aplikasi Pencatatan Data Pelayanan Kesehatan Ibu dan Anak </span>
                         <span>Secara Real-Time Pertama Di Indonesia.</span>
                     </h2>
                     <p>
@@ -107,22 +107,22 @@ $desc = "Perkenalkan, Extended e-iANC. Aplikasi Pencatatan Data Pelayanan Antena
                     <article class="advantages__item">
                         <img src="./home/assets/advantages-kecerdasan-buatan.svg" alt="" />
                         <div>
-                            <h3>Inovasi pencatatan data pelayanan Antenatal</h3>
-                            <p>Extended e-iANC dapat melakukan pencatatan data pelayanan Antenatal secara Real-TIme.</p>
+                            <h3>Inovasi pencatatan data pelayanan Kesehatan Ibu dan Anak</h3>
+                            <p>Extended e-iANC dapat melakukan pencatatan data pelayanan Kesehatan Ibu dan Anak secara Real-TIme.</p>
                         </div>
                     </article>
                     <article class="advantages__item">
                         <img src="./home/assets/advantages-kesehatan-cepat.svg" alt="" />
                         <div>
                             <h3>Pencatatan data secara real-time</span></h3>
-                            <p>Temukan data pelayanan Antenatal real-time secara cepat dan mudah dibaca.</p>
+                            <p>Temukan data pelayanan Kesehatan Ibu dan Anak real-time secara cepat dan mudah dibaca.</p>
                         </div>
                     </article>
                     <article class="advantages__item">
                         <img src="./home/assets/advantages-kualitas-pelayanan.svg" alt="" />
                         <div>
                             <h3>Mengubah pelayanan secara digitalisasi</h3>
-                            <p>Extended e-iANC membantu meningkatkan kualitas pelayanan dalam pencatatan data pelayanan Antenatal.</p>
+                            <p>Extended e-iANC membantu meningkatkan kualitas pelayanan dalam pencatatan data pelayanan Kesehatan Ibu dan Anak.</p>
                         </div>
                     </article>
                 </div>
