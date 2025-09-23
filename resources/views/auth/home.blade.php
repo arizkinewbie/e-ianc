@@ -35,6 +35,7 @@ $desc = "Perkenalkan, Extended e-iANC. Aplikasi Pencatatan Data Pelayanan Keseha
     <link rel="stylesheet" type="text/css" href="./vendor/material-icons/css.css" />
     <link rel="stylesheet" type="text/css" href="./home/css/dashboard.css" />
     <link rel="stylesheet" type="text/css" href="./home/css/index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </head>
 
@@ -81,7 +82,7 @@ $desc = "Perkenalkan, Extended e-iANC. Aplikasi Pencatatan Data Pelayanan Keseha
                     </div>
                     <div class="card-body">
                         <div class="card-body dashboard">
-                            <a href="./register" class="btn btn-primary btn-lg">Pandaftaran Akun Extended e-iANC</a><br><br>
+                            <a href="javascript:void(0)" onclick="alertRegister()" class="btn btn-primary btn-lg">Pandaftaran Akun Extended e-iANC</a><br><br>
                             <a href="/user-guide.pdf" class="btn btn-outline-secondary btn-lg" download>Panduan Pengguna <i>(User Guide)</i></a>
                         </div>
                     </div>
@@ -89,7 +90,18 @@ $desc = "Perkenalkan, Extended e-iANC. Aplikasi Pencatatan Data Pelayanan Keseha
             </div>
 
         </section>
-
+        <script>
+            function alertRegister() {
+                Swal.fire({
+                    title: 'Pendaftaran Akun',
+                    text: 'Untuk pendaftaran akun, silakan hubungi admin e-iANC. Terima kasih!',
+                    icon: 'info',
+                    confirmButtonText: 'OK',
+                    timer: 3000,
+                    timerProgressBar: true
+                });
+            }
+        </script>
         <!-- ADVANTAGES -->
         <section class="advantages">
             <div id="about" class="container advantages__container">
