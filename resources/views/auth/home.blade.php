@@ -83,7 +83,7 @@ $desc = "Perkenalkan, Extended e-iANC. Aplikasi Pencatatan Data Pelayanan Keseha
                     <div class="card-body">
                         <div class="card-body dashboard">
                             <a href="javascript:void(0)" onclick="alertRegister()" class="btn btn-primary btn-lg">Pandaftaran Akun Extended e-iANC</a><br><br>
-                            <a href="/user-guide.pdf" class="btn btn-outline-secondary btn-lg" download>Panduan Pengguna <i>(User Guide)</i></a>
+                            <a href="javascript:void(0)" onclick="alertUserGuide()" class="btn btn-outline-secondary btn-lg" download>Panduan Pengguna <i>(User Guide)</i></a>
                         </div>
                     </div>
                 </div>
@@ -95,6 +95,16 @@ $desc = "Perkenalkan, Extended e-iANC. Aplikasi Pencatatan Data Pelayanan Keseha
                 Swal.fire({
                     title: 'Pendaftaran Akun',
                     text: 'Untuk pendaftaran akun, silakan hubungi admin e-iANC. Terima kasih!',
+                    icon: 'info',
+                    confirmButtonText: 'OK',
+                    timer: 3000,
+                    timerProgressBar: true
+                });
+            }
+            function alertUserGuide() {
+                Swal.fire({
+                    title: 'Panduan Pengguna',
+                    text: 'Untuk mengunduh panduan pengguna, silakan registrasi dan masuk ke dalam aplikasi terlebih dahulu. Terima kasih!',
                     icon: 'info',
                     confirmButtonText: 'OK',
                     timer: 3000,
