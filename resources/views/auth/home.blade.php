@@ -239,7 +239,10 @@ $desc = "Perkenalkan, Extended e-iANC. Aplikasi Pencatatan Data Pelayanan Keseha
     <footer class="footer">
         <div id="footer" class="container footer__container">
             <div class="footer__company">
-                <img src="./home/assets/logo.png" alt="logo" class="footer__logo" width="200" />
+                <div style="display: flex; gap: 20px; align-items: center;">
+                    <img src="./home/assets/logo.png" alt="logo" class="footer__logo" width="150" />
+                    <img src="./home/assets/diktisaintek-berdampak.png" alt="logo diktisaintek berdampak" class="footer__logo" width="100" />
+                </div>
                 <p class="footer__copyright"><?php
                                                 echo '© ', date('Y');
                                                 ?>
