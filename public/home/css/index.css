@@ -1219,7 +1219,6 @@ h5 {
 
 .footer__supporters {
     display: grid;
-    gap: 16px;
 }
 .footer__supporters ul {
     display: -webkit-box;
