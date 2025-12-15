@@ -239,23 +239,19 @@ $desc = "Perkenalkan, Extended e-iANC. Aplikasi Pencatatan Data Pelayanan Keseha
     <footer class="footer">
         <div id="footer" class="container footer__container">
             <div class="footer__company">
-                <div style="display: flex; gap: 20px; align-items: center;">
-                    <img src="./home/assets/logo.png" alt="logo" class="footer__logo" width="150" />
-                    <img src="./home/assets/diktisaintek-berdampak.png" alt="logo diktisaintek berdampak" class="footer__logo" width="70" />
+                <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: left;">
+                    <img src="./home/assets/logo.png" alt="logo" class="footer__logo"
+                        style="width: 150px; max-width: 100%;" />
+                    <img src="./home/assets/diktisaintek-berdampak.png" alt="logo diktisaintek berdampak"
+                        class="footer__logo" style="width: 70px; max-width: 100%;" />
+                    <img src="./home/assets/ueu.png" alt="UEU logo" style="width: 150px; max-width: 100%;" />
                 </div>
                 <p class="footer__copyright"><?php
-                                                echo '© ', date('Y');
-                                                ?>
-                    <a href="" style="font-size: 16px">Extended Electronic Integrated Antenatal Care (Extended e-iANC)</a>
+                echo '© ', date('Y');
+                ?>
+                    <a href="" style="font-size: 16px">Extended Electronic Integrated Antenatal Care (Extended
+                        e-iANC)</a>
                 </p>
-                <div class="footer__supporters">
-                    <p style="font-size: 16px">Didukung oleh:</p>
-                    <ul>
-                        <li>
-                            <img src="./home/assets/ueu.png" alt="UEU logo" width="200" />
-                        </li>
-                    </ul>
-                </div>
             </div>
 
             <div class="footer__links">
